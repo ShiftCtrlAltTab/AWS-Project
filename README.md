@@ -14,7 +14,7 @@ password: Admin@123!!
 
 The admin page will display dashboard with total user requests and availabale blood units, a Donors List page to approve or reject the donations request created by user, a Blood Request List page to approve or deny blood request created by users, a Ledger page which will display all the requests that are either approved or denied, and a Users page that will list all the users.
 
-# In terms of local deployemnt, let us walk you through the entire process and technologies used.
+# In terms of local deployment, let us walk you through the entire process and technologies used.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
