@@ -2,7 +2,7 @@
 The deployment code was first developed locally and then deployed on AWS cloud.
 
 In order to run the application online visit the URL: https://d2gaanskxb6i54.cloudfront.net/
-# For User login
+# For User login,
 
 You can register and create a new user from the register page.
 After login the user should be able to see Dashboard highlighting all the available blood units, Request form to either request blood or request to make a blood donation, History page to track all the requests made, and profile page to edit their details.
@@ -14,7 +14,7 @@ password: Admin@123!!
 
 The admin page will display dashboard with total user requests and availabale blood units, a Donors List page to approve or reject the donations request created by user, a Blood Request List page to approve or deny blood request created by users, a Ledger page which will display all the requests that are either approved or denied, and a Users page that will list all the users.
 
-In terms of local deployemnt, let us walk you through the entire process and technologies used.
+# In terms of local deployemnt, let us walk you through the entire process and technologies used.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
