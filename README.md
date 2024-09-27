@@ -2,8 +2,10 @@
 The deployment code was first developed locally and then deployed on AWS cloud.
 
 In order to run the application online visit the URL: https://d2gaanskxb6i54.cloudfront.net/
-You can register and create a new user.
-The user login should be able to see Dashboard highlighting all the available blood units, Request form to either request blood or request to make a blood donation, History page to track all the requests made, and profile page to edit their details.
+# For User login
+
+You can register and create a new user from the register page.
+After login the user should be able to see Dashboard highlighting all the available blood units, Request form to either request blood or request to make a blood donation, History page to track all the requests made, and profile page to edit their details.
 
 # For admin login,
 you can use the following credentials:
