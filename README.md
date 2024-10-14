@@ -1,4 +1,5 @@
 # AWS-Project
+
 The deployment code was first developed locally and then deployed on AWS cloud.
 
 In order to run the application online visit the URL: https://d2gaanskxb6i54.cloudfront.net/
@@ -6,6 +7,7 @@ You can register and create a new user.
 The user login should be able to see Dashboard highlighting all the available blood units, Request form to either request blood or request to make a blood donation, History page to track all the requests made, and profile page to edit their details.
 
 # For admin login,
+
 you can use the following credentials:
 username: admin@gmail.com
 password: Admin@123!!
@@ -36,11 +38,34 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Continued
+# Blood Bank Management System Deployment
 
-To learn more about Next.js, take a look at the following resources:
+## AWS Automated Deployment with Terraform
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Learn Next.js](https://nextjs.org/learn)
+This repository contains the Terraform configurations for deploying the Blood Bank Management System to AWS. Follow the steps below to set up your environment and deploy the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
+### Prerequisites
+
+1. Install [Terraform](https://www.terraform.io/downloads.html).
+2. Install the [AWS CLI](https://aws.amazon.com/cli/) and configure it with your AWS credentials.
+3. Ensure you have Node.js and npm installed on your local machine.
+
+### Deployment Steps
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/ShiftCtrlAltTab/AWS-Project.git
+   cd AWS-Project
+
+   ```
+
+2. Create the main.tf file: The Terraform configuration file is already provided in the repository.
+3. Create the deploy.sh script: The deployment script is included in the repository.
+
+4. Run the deployment script:
+   bash
+   chmod +x deploy.sh
+   ./deploy.sh
+
+5. Access your application: After deployment, your application will be available at the CloudFront distribution URL displayed in the terminal.
