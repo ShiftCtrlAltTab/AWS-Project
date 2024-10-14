@@ -60,12 +60,14 @@ This repository contains the Terraform configurations for deploying the Blood Ba
 
    ```
 
-2. Create the main.tf file: The Terraform configuration file is already provided in the repository.
+2. Create the code.tf file: The Terraform configuration file is already provided in the repository.
 3. Create the deploy.sh script: The deployment script is included in the repository.
 
 4. Run the deployment script:
-   bash
+   **bash**
+   
    chmod +x deploy.sh
+   
    ./deploy.sh
 
-5. Access your application: After deployment, your application will be available at the CloudFront distribution URL displayed in the terminal.
+6. Access your application: After deployment, your application will be available at the CloudFront distribution URL displayed in the terminal.
